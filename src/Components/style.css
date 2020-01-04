@@ -1,0 +1,29 @@
+
+.lead
+{
+font-size: 21px;
+    letter-spacing: -1px;
+    font-family: 'MuseoSans-300' !important;
+    text-align: center;
+    color: black;
+}
+
+
+                        /* Footer */
+
+#first
+{
+    background-color: #ffdd22;
+    width: 100%;
+    height: auto;
+}
+#Backimage
+{
+    background-image: url("../Images/Backback3.png");
+    background-repeat: no-repeat;
+}
+
+@media only screen and(max-width:1200px)
+{
+    #Backimage{height: auto;}
+}
